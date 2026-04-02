@@ -11,17 +11,19 @@ theme:
   name: material
   language: zh
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
+   - media: "(prefers-color-scheme: dark)"
+     scheme: default
+     primary: indigo
+     accent: indigo
+     toggle:
+        icon: material/weather-night
         name: 切换到深色模式
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
+   - media: "(prefers-color-scheme: light)"
+     scheme: slate
+     primary: blue grey
+     accent: indigo
+     toggle:
+        icon: material/weather-sunny
         name: 切换到浅色模式
   font:
     text: Roboto

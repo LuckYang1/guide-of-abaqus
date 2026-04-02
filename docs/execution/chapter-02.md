@@ -13,7 +13,7 @@ description: Abaqus 执行指南章节
 
 您现在可以恢复从 Simpack 动态时域和频域分析获得的结果。
 
-**优势**：这些增强功能改进了柔性体动力学分析的 Abaqus-Simpack 工作流程。abaqus substructurerecover 实用程序现在支持恢复从 Simpack 动态时域和频域分析获得的结果。
+**增强**：这些增强功能改进了柔性体动力学分析的 Abaqus-Simpack 工作流程。abaqus substructurerecover 实用程序现在支持恢复从 Simpack 动态时域和频域分析获得的结果。
 
 有关详细信息，请参阅"环境文件设置"和"从子结构恢复结果"。
 

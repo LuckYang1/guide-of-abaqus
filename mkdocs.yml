@@ -65,6 +65,19 @@ extra:
   analytics:
     provider: google
     property: G-9JFG9H70DC
+    feedback:
+      title: 这个文档对你有帮助吗？
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            感谢你的反馈！
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            感谢你的反馈！帮助我们通过使用我们的 <a href="..." target="_blank" rel="noopener">反馈表单</a> 改进这个页面。
 
 extra_css:
   - stylesheets/extra.css

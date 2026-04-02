@@ -1,0 +1,157 @@
+site_name: Abaqus 中文文档
+site_url: https://example.com/abaqus-docs/
+site_description: Abaqus 软件中文用户指南文档
+site_author: Abaqus Documentation Team
+
+repo_name: guide-of-abaqus
+repo_url: https://github.com/example/guide-of-abaqus
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/book-open-variant
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+    - content.tooltips
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/example/guide-of-abaqus
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - 首页: index.md
+  - 安装与许可:
+      - install_lic/index.md
+      - install_lic/chapter-01.md
+      - install_lic/chapter-02.md
+      - install_lic/chapter-03.md
+      - install_lic/chapter-04.md
+      - install_lic/chapter-05.md
+      - install_lic/chapter-06.md
+      - install_lic/chapter-07.md
+      - install_lic/chapter-08.md
+      - install_lic/chapter-09.md
+  - 执行指南:
+      - execution/index.md
+      - execution/chapter-01.md
+      - execution/chapter-02.md
+      - execution/chapter-03.md
+      - execution/chapter-04.md
+      - execution/chapter-05.md
+      - execution/chapter-06.md
+      - execution/chapter-07.md
+      - execution/chapter-08.md
+      - execution/chapter-09.md
+      - execution/chapter-10.md
+      - execution/chapter-11.md
+      - execution/chapter-12.md
+      - execution/chapter-13.md
+      - execution/chapter-14.md
+      - execution/chapter-15.md
+  - GUI 工具包:
+      - guitoolkit/index.md
+      - guitoolkit/chapter-01.md
+      - guitoolkit/chapter-02.md
+      - guitoolkit/chapter-03.md
+      - guitoolkit/chapter-04.md
+      - guitoolkit/chapter-05.md
+      - guitoolkit/chapter-06.md
+      - guitoolkit/chapter-07.md
+      - guitoolkit/chapter-08.md
+      - guitoolkit/chapter-09.md
+      - guitoolkit/chapter-10.md
+      - guitoolkit/chapter-11.md
+      - guitoolkit/chapter-12.md
+      - guitoolkit/chapter-13.md
+      - guitoolkit/chapter-14.md
+
+  - 社区: community.md

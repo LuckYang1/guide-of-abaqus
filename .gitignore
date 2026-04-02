@@ -1,0 +1,46 @@
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MkDocs specific
+docs/stylesheets/extra.css
+material/overrides/
+
+# MinerU output
+mineru_output/
+
+# Resource files (PDF sources - keep only in local)
+resource/*.pdf
+resource/mineru_output/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.cache/

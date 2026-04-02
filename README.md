@@ -98,7 +98,7 @@ guide-of-abaqus/
 ## 📬 联系方式
 
 - GitHub Issues: [提交 Bug 或功能请求](https://github.com/example/guide-of-abaqus/issues)
-- Email: contact@example.com
+
 
 ---
 

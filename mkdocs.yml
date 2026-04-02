@@ -3,8 +3,8 @@ site_url: https://example.com/abaqus-docs/
 site_description: Abaqus 软件中文用户指南文档
 site_author: Abaqus Documentation Team
 
-repo_name: guide-of-abaqus
-repo_url: https://github.com/example/guide-of-abaqus
+repo_name: LuckYang1/guide-of-abaqus
+repo_url: https://github.com/LuckYang1/guide-of-abaqus
 edit_uri: edit/main/docs/
 
 theme:
@@ -59,8 +59,11 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/example/guide-of-abaqus
+      link: https://github.com/LuckYang1/guide-of-abaqus
   generator: false
+  version:
+    provider: mike
+    default: stable
 
 extra_css:
   - stylesheets/extra.css

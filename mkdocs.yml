@@ -43,6 +43,7 @@ theme:
     - content.action.view
     - content.tabs.link
     - content.tooltips
+    - navigation.footer
 
 plugins:
   - search:
@@ -53,16 +54,17 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
-  - tags
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/LuckYang1/guide-of-abaqus
-  generator: false
   version:
     provider: mike
     default: stable
+  analytics:
+    provider: google
+    property: G-9JFG9H70DC
 
 extra_css:
   - stylesheets/extra.css

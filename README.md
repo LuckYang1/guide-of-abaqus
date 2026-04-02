@@ -69,32 +69,41 @@ mkdocs gh-deploy
 2. **Source** 选择 **GitHub Actions**
 3. 保存即可
 
-## 🎨 文档特性
-
-- 🌙 **暗色/亮色模式** - 右上角切换按钮
-- 🔍 **全文搜索** - 支持高亮和分享
-- 🌐 **多语言支持** - 简体中文 / English
-- 📋 **代码高亮** - 支持复制功能
-- 🏷️ **标签系统** - 内容标签索引
-- 📱 **响应式设计** - 适配各种屏幕尺寸
-- ⬆️ **返回顶部** - 快速回到页面顶部
 
 ## 📂 项目结构
 
 ```
 guide-of-abaqus/
-├── docs/                    # 文档源文件
+├── .github/
+│   └── workflows/
+│       └── deploy.yml       # GitHub Actions 自动部署配置
+├── docs/
 │   ├── index.md            # 首页
 │   ├── community.md         # 社区页面
 │   ├── glossary.md          # 术语表
 │   ├── tags.md              # 标签索引
-│   ├── execution/           # 执行指南章节
-│   ├── guitoolkit/          # GUI 工具包章节
-│   └── install_lic/         # 安装与许可章节
-├── docs/en/                 # 英文文档
-├── .github/workflows/       # GitHub Actions 配置
+│   ├── stylesheets/
+│   │   └── extra.css        # 自定义样式
+│   ├── javascripts/
+│   │   └── back-to-top.js   # 返回顶部按钮
+│   ├── execution/           # 执行指南（中文）
+│   │   ├── index.md
+│   │   └── chapter-*.md     # 第 1-15 章
+│   ├── guitoolkit/          # GUI 工具包（中文）
+│   │   ├── index.md
+│   │   └── chapter-*.md     # 第 1-14 章
+│   ├── install_lic/         # 安装与许可（中文）
+│   │   ├── index.md
+│   │   └── chapter-*.md     # 第 1-9 章
+│   └── en/                  # 英文文档（完整副本）
+│       ├── index.md
+│       ├── community.md
+│       ├── execution/
+│       ├── guitoolkit/
+│       └── install_lic/
 ├── mkdocs.yml              # MkDocs 配置
-└── requirements.txt        # Python 依赖
+├── requirements.txt        # Python 依赖
+└── README.md               # 本文件
 ```
 
 ## ✍️ 翻译原则

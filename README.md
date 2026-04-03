@@ -25,7 +25,7 @@ Abaqus 软件官方用户指南中文版，基于 MkDocs + Material 主题构建
 
 ### 环境要求
 
-- Python 3.8+
+- Python 3.12+
 - pip
 
 ### 安装步骤
@@ -39,10 +39,10 @@ cd guide-of-abaqus
 pip install -r requirements.txt
 
 # 3. 启动本地服务器
-mkdocs serve -a localhost:8001
+mkdocs serve
 ```
 
-访问 [http://localhost:8001](http://localhost:8001) 查看文档。
+访问 [http://localhost:8000](http://localhost:8000) 查看文档。
 
 ### 构建静态站点
 
@@ -80,12 +80,8 @@ guide-of-abaqus/
 ├── docs/
 │   ├── index.md            # 首页
 │   ├── community.md         # 社区页面
-│   ├── glossary.md          # 术语表
-│   ├── tags.md              # 标签索引
 │   ├── stylesheets/
 │   │   └── extra.css        # 自定义样式
-│   ├── javascripts/
-│   │   └── back-to-top.js   # 返回顶部按钮
 │   ├── execution/           # 执行指南（中文）
 │   │   ├── index.md
 │   │   └── chapter-*.md     # 第 1-15 章

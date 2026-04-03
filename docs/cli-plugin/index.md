@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/LuckYang1/abaqus-cli">
-    <img src="https://raw.githubusercontent.com/LuckYang1/abaqus-cli/master/logo.svg" alt="abaqus-cli" width="400">
+    <img src="https://raw.githubusercontent.com/LuckYang1/abaqus-cli/master/logo.svg" alt="abaqus-cli" width="700">
   </a>
 </p>
 <p align="center">

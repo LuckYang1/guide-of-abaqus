@@ -7,6 +7,7 @@ description: Abaqus 软件官方用户指南中文版
 
 欢迎使用 Abaqus 软件中文用户指南。本文档为您提供 Abaqus 软件的全面中文参考，包括安装配置、GUI 工具包使用、执行选项等核心内容。
 
+
 ## 文档内容
 
 <div class="grid cards" markdown>
@@ -22,6 +23,12 @@ description: Abaqus 软件官方用户指南中文版
   [GUI Toolkit]: guitoolkit/index.md
   [Installation & Licensing]: install_lic/index.md
   [CLI Plugin]: cli-plugin/index.md
+
+  <p align="center">
+  <a href="https://github.com/LuckYang1/abaqus-cli">
+    <img src="https://raw.githubusercontent.com/LuckYang1/abaqus-cli/master/logo.svg" alt="abaqus-cli" width="180">
+  </a>
+</p>
 
 ## 主要特性
 

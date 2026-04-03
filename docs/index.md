@@ -26,7 +26,7 @@ description: Abaqus 软件官方用户指南中文版
 
   <p align="center">
   <a href="https://github.com/LuckYang1/abaqus-cli">
-    <img src="https://raw.githubusercontent.com/LuckYang1/abaqus-cli/master/logo.svg" alt="abaqus-cli" width="180">
+    <img src="https://raw.githubusercontent.com/LuckYang1/abaqus-cli/master/logo.svg" alt="abaqus-cli" width="400">
   </a>
 </p>
 

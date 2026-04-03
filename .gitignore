@@ -45,3 +45,6 @@ resource/mineru_output/
 *.tmp
 .cache/
 计划.md
+
+# Claude Code plugin (独立仓库: https://github.com/LuckYang1/abaqus-cli)
+plugins/abaqus-cli/

@@ -186,4 +186,12 @@ nav:
       - guitoolkit/chapter-13.md
       - guitoolkit/chapter-14.md
 
+  - CLI 插件:
+      - cli-plugin/index.md
+      - cli-plugin/quickstart.md
+      - cli-plugin/commands.md
+      - cli-plugin/agents.md
+      - cli-plugin/skills.md
+      - cli-plugin/scripts.md
+      - cli-plugin/configuration.md
   - 社区: community.md

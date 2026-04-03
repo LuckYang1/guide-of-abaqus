@@ -70,6 +70,21 @@ mkdocs gh-deploy
 3. 保存即可
 
 
+## 相关项目
+
+### [abaqus-cli](https://github.com/LuckYang1/abaqus-cli)
+
+Abaqus 有限元分析 CLI 封装插件，专为 Claude Code 设计。AI Agent 可自主完成仿真工作流：作业提交、运行监控、后处理、子程序编译、格式翻译、联合仿真。
+
+**安装方式：**
+
+```
+/plugin marketplace add LuckYang1/abaqus-cli
+/plugin install abaqus-cli@abaqus-cli
+```
+
+详细文档请参阅：[CLI 插件指南](https://LuckYang1.github.io/guide-of-abaqus/cli-plugin/)
+
 ## 📂 项目结构
 
 ```

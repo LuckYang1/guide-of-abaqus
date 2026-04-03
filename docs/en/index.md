@@ -11,17 +11,17 @@ Welcome to the Abaqus User Guide. This documentation provides a comprehensive re
 
 <div class="grid cards" markdown>
 
--   :material-book-open-variant:{ .font-medium .text-purple } **[Execution](execution/index.md)**
-    -
-    Learn about Abaqus execution options, input files, output control, and core features
--   :material-palette:{ .font-medium .text-purple } **[GUI Toolkit](guitoolkit/index.md)**
-    -
-    Abaqus GUI Toolkit development guide for extending custom functionality
--   :material-key:{ .font-medium .text-purple } **[Installation & Licensing](install_lic/index.md)**
-    -
-    Complete guide for software installation, configuration, and license management
+-   :material-book-open-variant:{ .font-medium .text-purple } __[Execution]__ – Learn about Abaqus execution options, input files, output control, and core features
+-   :material-palette:{ .font-medium .text-purple } __[GUI Toolkit]__ – Abaqus GUI Toolkit development guide for extending custom functionality
+-   :material-key:{ .font-medium .text-purple } __[Installation & Licensing]__ – Complete guide for software installation, configuration, and license management
+-   :material-console:{ .font-medium .text-purple } __[CLI Plugin]__ – Abaqus CLI wrapper plugin for AI Agent-driven simulation workflows
 
 </div>
+
+  [Execution]: execution/index.md
+  [GUI Toolkit]: guitoolkit/index.md
+  [Installation & Licensing]: install_lic/index.md
+  [CLI Plugin]: cli-plugin/index.md
 
 ## Key Features
 
@@ -36,6 +36,7 @@ Welcome to the Abaqus User Guide. This documentation provides a comprehensive re
 | Resource | Link |
 |----------|------|
 | Official Documentation | [Dassault Systèmes](https://www.3ds.com/products-services/simulia/products/abaqus/) |
+| abaqus-cli Plugin | [GitHub](https://github.com/LuckYang1/abaqus-cli) |
 | Release Notes | [Release Notes](./execution/index.md) |
 | Community | [Community](./community.md) |
 

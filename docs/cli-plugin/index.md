@@ -1,6 +1,6 @@
 # Abaqus CLI 插件
 
-Abaqus CLI 插件是为 AI Agent 设计的 Abaqus 有限元分析软件 CLI 封装，使 AI Agent 能自主完成仿真工作流。
+[Abaqus CLI](https://github.com/LuckYang1/abaqus-cli) 插件是为 AI Agent 设计的 Abaqus 有限元分析软件 CLI 封装，使 AI Agent 能自主完成仿真工作流。
 
 ## 功能特性
 

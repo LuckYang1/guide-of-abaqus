@@ -11,17 +11,17 @@ description: Abaqus 软件官方用户指南中文版
 
 <div class="grid cards" markdown>
 
--   :material-book-open-variant:{ .font-medium .text-purple } **[Execution](execution/index.md)**
-    -
-    了解 Abaqus 执行选项、输入文件、输出控制等核心功能
--   :material-palette:{ .font-medium .text-purple } **[GUI Toolkit](guitoolkit/index.md)**
-    -
-    Abaqus GUI 工具包开发指南，扩展自定义功能
--   :material-key:{ .font-medium .text-purple } **[Installation & Licensing](install_lic/index.md)**
-    -
-    软件安装、配置与许可证管理完整指南
+-   :material-book-open-variant:{ .font-medium .text-purple } __[Execution]__ – 了解 Abaqus 执行选项、输入文件、输出控制等核心功能
+-   :material-palette:{ .font-medium .text-purple } __[GUI Toolkit]__ – Abaqus GUI 工具包开发指南，扩展自定义功能
+-   :material-key:{ .font-medium .text-purple } __[Installation & Licensing]__ – 软件安装、配置与许可证管理完整指南
+-   :material-console:{ .font-medium .text-purple } __[CLI Plugin]__ – Abaqus CLI 封装插件，让 AI Agent 自主完成仿真工作流
 
 </div>
+
+  [Execution]: execution/index.md
+  [GUI Toolkit]: guitoolkit/index.md
+  [Installation & Licensing]: install_lic/index.md
+  [CLI Plugin]: cli-plugin/index.md
 
 ## 主要特性
 
@@ -36,6 +36,7 @@ description: Abaqus 软件官方用户指南中文版
 | 资源 | 链接 |
 |------|------|
 | 官方英文文档 | [Dassault Systèmes](https://www.3ds.com/products-services/simulia/products/abaqus/) |
+| abaqus-cli 插件 | [GitHub](https://github.com/LuckYang1/abaqus-cli) |
 | 版本说明 | [Release Notes](./execution/index.md) |
 | 社区讨论 | [Community](./community.md) |
 

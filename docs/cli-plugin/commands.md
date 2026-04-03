@@ -36,6 +36,52 @@
 /abaqus-run model.inp --continue cpus=4
 ```
 
+**作业控制：**
+
+| 操作 | 命令 | 说明 |
+|------|------|------|
+| 暂停 | `/abaqus-suspend <job>` | 冻结状态，不丢失进度 |
+| 恢复 | `/abaqus-resume <job>` | 从暂停点继续，无需 .res 文件 |
+| 终止 | `/abaqus-run <job> --continue` | 需要 .res 重启动文件 |
+
+---
+
+## /abaqus-suspend — 暂停作业
+
+暂停正在运行的 Abaqus 作业，保留内存状态，后续可用 `/abaqus-resume` 恢复。
+
+**基本用法：**
+
+```
+/abaqus-suspend <job_name>
+```
+
+**示例：**
+
+```
+/abaqus-suspend model
+```
+
+---
+
+## /abaqus-resume — 恢复作业
+
+恢复被 `/abaqus-suspend` 暂停的 Abaqus 作业。
+
+**基本用法：**
+
+```
+/abaqus-resume <job_name>
+```
+
+**示例：**
+
+```
+/abaqus-resume model
+```
+
+**注意：** 只能恢复被 suspend 暂停的作业。如果是 terminate 终止的，需使用 `/abaqus-run --continue`（需要 .res 文件）。
+
 ---
 
 ## /abaqus-monitor — 作业监控
@@ -57,7 +103,7 @@
 
 **输出内容：**
 
-- 作业状态（COMPLETED / RUNNING / TERMINATED / ABORTED）
+- 作业状态（COMPLETED / RUNNING / SUSPENDED / TERMINATED / ABORTED）
 - 迭代步数
 - 警告/错误数量
 - ODB 文件大小

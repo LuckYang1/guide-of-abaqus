@@ -36,6 +36,52 @@ Submit Abaqus analysis jobs.
 /abaqus-run model.inp --continue cpus=4
 ```
 
+**Job Control:**
+
+| Action | Command | Description |
+|--------|---------|-------------|
+| Suspend | `/abaqus-suspend <job>` | Freeze state, no progress loss |
+| Resume | `/abaqus-resume <job>` | Continue from suspension, no .res file needed |
+| Terminate/Continue | `/abaqus-run <job> --continue` | Requires .res restart file |
+
+---
+
+## /abaqus-suspend — Suspend Job
+
+Suspend a running Abaqus job, preserving memory state. Resume later with `/abaqus-resume`.
+
+**Usage:**
+
+```
+/abaqus-suspend <job_name>
+```
+
+**Example:**
+
+```
+/abaqus-suspend model
+```
+
+---
+
+## /abaqus-resume — Resume Job
+
+Resume an Abaqus job suspended by `/abaqus-suspend`.
+
+**Usage:**
+
+```
+/abaqus-resume <job_name>
+```
+
+**Example:**
+
+```
+/abaqus-resume model
+```
+
+**Note:** Can only resume jobs suspended with suspend. For terminated jobs, use `/abaqus-run --continue` (requires .res file).
+
 ---
 
 ## /abaqus-monitor — Job Monitoring
@@ -57,7 +103,7 @@ Monitor Abaqus job running status.
 
 **Output:**
 
-- Job status (COMPLETED / RUNNING / TERMINATED / ABORTED)
+- Job status (COMPLETED / RUNNING / SUSPENDED / TERMINATED / ABORTED)
 - Increment count
 - Warning/error count
 - ODB file size

@@ -1,6 +1,6 @@
 # Abaqus CLI Plugin
 
-The Abaqus CLI Plugin is a CLI wrapper for the Abaqus FEA software, designed for AI Agents to autonomously complete simulation workflows.
+The [Abaqus CLI](https://github.com/LuckYang1/abaqus-cli)  Plugin is a CLI wrapper for the Abaqus FEA software, designed for AI Agents to autonomously complete simulation workflows.
 
 ## Features
 

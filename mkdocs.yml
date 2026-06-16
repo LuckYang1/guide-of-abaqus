@@ -32,7 +32,6 @@ theme:
     logo: material/book-open-variant
     repo: fontawesome/brands/github
   features:
-    - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -169,6 +168,7 @@ nav:
       - execution/chapter-13.md
       - execution/chapter-14.md
       - execution/chapter-15.md
+
   - GUI 工具包:
       - guitoolkit/index.md
       - guitoolkit/chapter-01.md
@@ -186,6 +186,34 @@ nav:
       - guitoolkit/chapter-13.md
       - guitoolkit/chapter-14.md
 
+  # BEGIN resource/new imported docs
+  - CST 粒子仿真:
+      - charged-particle/index.md
+      - 前言: charged-particle/chapter-00.md
+      - 第 1 章：简介: charged-particle/chapter-01.md
+      - 第 2 章：仿真工作流: charged-particle/chapter-02.md
+      - 第 3 章：求解器概览: charged-particle/chapter-03.md
+      - 第 4 章：获取更多信息: charged-particle/chapter-04.md
+  - Abaqus/CAE 用户指南:
+      - 概览与目录: cae/index.md
+      - 商标与法律声明: cae/legal.md
+      - 与 Abaqus/CAE 交互: cae/interacting.md
+      - 模型数据库、模型与文件: cae/model-databases-files.md
+      - Part 模块: cae/part-module.md
+      - Property 模块: cae/property-module.md
+      - Assembly 模块: cae/assembly-module.md
+      - Step 模块: cae/step-module.md
+      - Interaction 模块: cae/interaction-module.md
+      - Load 模块: cae/load-module.md
+      - Mesh 模块: cae/mesh-module.md
+      - Optimization、Job 与 Sketch 模块: cae/optimization-job-sketch.md
+      - 建模技术: cae/modeling-techniques.md
+      - 结果查看: cae/viewing-results.md
+      - 工具集: cae/toolsets.md
+      - 模型显示定制: cae/customizing-model-display.md
+      - 插件: cae/plugins.md
+      - 附录: cae/appendix.md
+  # END resource/new imported docs
   - CLI 插件:
       - cli-plugin/index.md
       - cli-plugin/quickstart.md

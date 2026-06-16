@@ -8,10 +8,10 @@ The Abaqus GUI Toolkit is one of the Abaqus Process Automation tools that allows
 
 ## Chapter Contents
 
-- [What can I do with the Abaqus GUI Toolkit?](#what-can-i-do-with-the-abaqus-gui-toolkit)
-- [Prerequisites for using the Abaqus GUI Toolkit](#prerequisites-for-using-the-abaqus-gui-toolkit)
-- [Abaqus GUI Toolkit basics](#abaqus-gui-toolkit-basics)
-- [Organization of the Abaqus GUI Toolkit User's Guide](#organization-of-the-abaqus-gui-toolkit-users-guide)
+- What can I do with the Abaqus GUI Toolkit?
+- Prerequisites for using the Abaqus GUI Toolkit
+- Abaqus GUI Toolkit basics
+- Organization of the Abaqus GUI Toolkit User's Guide
 
 ---
 

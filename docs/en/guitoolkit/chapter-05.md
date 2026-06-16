@@ -6,13 +6,13 @@ This section describes the dialog boxes you can create with the Abaqus GUI Toolk
 
 ## Chapter Contents
 
-- [About dialog boxes](#about-dialog-boxes)
-- [Modal versus modeless](#modal-versus-modeless)
-- [Showing and hiding dialog boxes](#showing-and-hiding-dialog-boxes)
-- [Message dialog boxes](#message-dialog-boxes)
-- [Custom dialog boxes](#custom-dialog-boxes)
-- [Data dialog boxes](#data-dialog-boxes)
-- [Common dialog boxes](#common-dialog-boxes)
+- About dialog boxes
+- Modal versus modeless
+- Showing and hiding dialog boxes
+- Message dialog boxes
+- Custom dialog boxes
+- Data dialog boxes
+- Common dialog boxes
 
 ---
 

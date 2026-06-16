@@ -6,10 +6,10 @@
 
 ## 本章内容
 
-- [内核与 GUI](#内核与-gui)
-- [Abaqus GUI 应用程序的组件](#abaqus-gui-应用程序的组件)
-- [插件和定制应用程序](#插件和定制应用程序)
-- [运行原型应用程序](#运行原型应用程序)
+- 内核与 GUI
+- Abaqus GUI 应用程序的组件
+- 插件和定制应用程序
+- 运行原型应用程序
 
 ---
 
@@ -29,7 +29,7 @@ Abaqus/CAE 以两个独立的进程执行：内核（Kernel）和 GUI。
 
 下图显示这些组件的概述及其连接方式。本节简要概述每个组件。这些组件将在后续章节中详细讨论。
 
-![图 1：Abaqus GUI 应用程序概述](./images/cbbc39debc18afb4a5b487630c1650c57717dfb6dfec08a40985970afa33c12c.jpg)
+> 图 1：Abaqus GUI 应用程序概述（原始图片缺失）
 
 ### Widgets（控件）
 
@@ -93,7 +93,7 @@ abaqus cae -custom prototypeApp -noStartup
 
 应用程序在工具箱中创建两个图标，如图 1 所示。
 
-![图 1：原型应用程序](./images/660851fb4d03bc7e2c65f0654b4c82e0184ea2be31825db561e17a4c1dadd81c.jpg)
+> 图 1：原型应用程序（原始图片缺失）
 
 - 图标重新加载表单代码（testForm.py）
 - 图标重新加载对话框代码（testDB.py）

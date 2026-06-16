@@ -6,18 +6,18 @@ This section describes how to use the various layout managers in the Abaqus GUI 
 
 ## Chapter Contents
 
-- [About layout managers](#about-layout-managers)
-- [Padding and spacing](#padding-and-spacing)
-- [Horizontal and vertical frames](#horizontal-and-vertical-frames)
-- [Vertical alignment for composite children](#vertical-alignment-for-composite-children)
-- [General-purpose layout managers](#general-purpose-layout-managers)
-- [Row and column layout manager](#row-and-column-layout-manager)
-- [Resizable regions](#resizable-regions)
-- [Rotating regions](#rotating-regions)
-- [Tab books](#tab-books)
-- [Layout hints](#layout-hints)
-- [Layout examples](#layout-examples)
-- [Tips for specifying layout hints](#tips-for-specifying-layout-hints)
+- About layout managers
+- Padding and spacing
+- Horizontal and vertical frames
+- Vertical alignment for composite children
+- General-purpose layout managers
+- Row and column layout manager
+- Resizable regions
+- Rotating regions
+- Tab books
+- Layout hints
+- Layout examples
+- Tips for specifying layout hints
 
 ---
 

@@ -6,10 +6,10 @@ The main window base class provides GUI infrastructure to allow user interaction
 
 ## Chapter Contents
 
-- [Modules and toolsets](#modules-and-toolsets)
-- [Abaqus/CAE main window example](#abaqus-cae-main-window-example)
-- [Icons](#icons)
-- [Colors and RGB values](#colors-and-rgb-values)
+- Modules and toolsets
+- Abaqus/CAE main window example
+- Icons
+- Colors and RGB values
 
 ---
 

@@ -6,10 +6,10 @@ This chapter provides an overview of customizing GUI applications.
 
 ## Chapter Contents
 
-- [Kernel and GUI](#kernel-and-gui)
-- [Components of an Abaqus GUI application](#components-of-an-abaqus-gui-application)
-- [Plug-ins and customized applications](#plug-ins-and-customized-applications)
-- [Running the prototype application](#running-the-prototype-application)
+- Kernel and GUI
+- Components of an Abaqus GUI application
+- Plug-ins and customized applications
+- Running the prototype application
 
 ---
 
@@ -29,7 +29,7 @@ Creating a GUI application involves a number of components.
 
 The figure below shows an overview of these components and how they connect. This section briefly introduces each component. These components are discussed in detail in later chapters.
 
-![Figure 1: Abaqus GUI application overview](./images/cbbc39debc18afb4a5b487630c1650c57717dfb6dfec08a40985970afa33c12c.jpg)
+> Figure 1: Abaqus GUI application overview (original image missing)
 
 ### Widgets
 
@@ -93,7 +93,7 @@ The `-custom` argument indicates that you are running a customized version of Ab
 
 The application creates two icons in the toolbox, as shown in Figure 1.
 
-![Figure 1: Prototype application](./images/660851fb4d03bc7e2c65f0654b4c82e0184ea2be31825db561e17a4c1dadd81c.jpg)
+> Figure 1: Prototype application (original image missing)
 
 - Icon reloads the form code (testForm.py)
 - Icon reloads the dialog code (testDB.py)

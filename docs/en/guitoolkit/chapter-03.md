@@ -6,9 +6,9 @@ This section describes the components of dialog boxes and how to create them usi
 
 ## Chapter Contents
 
-- [Widgets](#widgets)
-- [Layout managers](#layout-managers)
-- [Dialog boxes](#dialog-boxes)
+- Widgets
+- Layout managers
+- Dialog boxes
 
 ---
 

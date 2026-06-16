@@ -6,14 +6,14 @@ This section describes how dialog boxes issue commands to the Abaqus/CAE kernel.
 
 ## Chapter Contents
 
-- [Command overview](#command-overview)
-- [Kernel and GUI processes](#kernel-and-gui-processes)
-- [Executing commands](#executing-commands)
-- [Kernel commands](#kernel-commands)
-- [GUI commands](#gui-commands)
-- [AFXTargets](#afxtargets)
-- [Accessing kernel data from the GUI](#accessing-kernel-data-from-the-gui)
-- [Receiving notification of kernel data changes](#receiving-notification-of-kernel-data-changes)
+- Command overview
+- Kernel and GUI processes
+- Executing commands
+- Kernel commands
+- GUI commands
+- AFXTargets
+- Accessing kernel data from the GUI
+- Receiving notification of kernel data changes
 
 ---
 

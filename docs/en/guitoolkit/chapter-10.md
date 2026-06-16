@@ -6,12 +6,12 @@ The preceding chapters described how to create new modules or toolsets. Alternat
 
 ## Chapter Contents
 
-- [Customizing and accessing Abaqus/CAE GUI modules and toolsets](#customizing-and-accessing-abaqus-cae-gui-modules-and-toolsets)
-- [File toolset](#file-toolset)
-- [Tree toolset](#tree-toolset)
-- [Selection toolset](#selection-toolset)
-- [Help toolset](#help-toolset)
-- [Custom toolset example](#custom-toolset-example)
+- Customizing and accessing Abaqus/CAE GUI modules and toolsets
+- File toolset
+- Tree toolset
+- Selection toolset
+- Help toolset
+- Custom toolset example
 
 ---
 

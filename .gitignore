@@ -48,3 +48,10 @@ resource/mineru_output/
 
 # Claude Code plugin (独立仓库: https://github.com/LuckYang1/abaqus-cli)
 plugins/abaqus-cli/
+scripts/import_resource_docs.py
+scripts/repair_translated_links.py
+scripts/__init__.py
+scripts/translate_mimo.py
+.gitignore
+tests/test_import_resource_docs.py
+scripts/validate_docs.py

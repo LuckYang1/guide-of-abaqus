@@ -6,12 +6,12 @@
 
 ## 本章内容
 
-- [修改和访问 Abaqus/CAE GUI 模块和工具集](#修改和访问-abaqus-cae-gui-模块和工具集)
-- [File 工具集](#file-工具集)
-- [Tree 工具集](#tree-工具集)
-- [Selection 工具集](#selection-工具集)
-- [Help 工具集](#help-工具集)
-- [自定义工具集示例](#自定义工具集示例)
+- 修改和访问 Abaqus/CAE GUI 模块和工具集
+- File 工具集
+- Tree 工具集
+- Selection 工具集
+- Help 工具集
+- 自定义工具集示例
 
 ---
 

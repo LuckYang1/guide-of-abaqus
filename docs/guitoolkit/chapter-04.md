@@ -6,18 +6,18 @@
 
 ## 本章内容
 
-- [关于布局管理器](#关于布局管理器)
-- [Padding and spacing（内边距和间距）](#padding-and-spacing-内边距和间距)
-- [Horizontal and vertical frames（水平和垂直框架）](#horizontal-and-vertical-frames-水平和垂直框架)
-- [Vertical alignment for composite children（复合子项的垂直对齐）](#vertical-alignment-for-composite-children-复合子项的垂直对齐)
-- [General-purpose layout managers（通用布局管理器）](#general-purpose-layout-managers-通用布局管理器)
-- [Row and column layout manager（行和列布局管理器）](#row-and-column-layout-manager-行和列布局管理器)
-- [Resizable regions（可调整大小的区域）](#resizable-regions-可调整大小的区域)
-- [Rotating regions（旋转区域）](#rotating-regions-旋转区域)
-- [Tab books（选项卡簿）](#tab-books-选项卡簿)
-- [Layout hints（布局提示）](#layout-hints-布局提示)
-- [Layout examples（布局示例）](#layout-examples-布局示例)
-- [Tips for specifying layout hints（布局提示规格技巧）](#tips-for-specifying-layout-hints-布局提示规格技巧)
+- 关于布局管理器
+- Padding and spacing（内边距和间距）
+- Horizontal and vertical frames（水平和垂直框架）
+- Vertical alignment for composite children（复合子项的垂直对齐）
+- General-purpose layout managers（通用布局管理器）
+- Row and column layout manager（行和列布局管理器）
+- Resizable regions（可调整大小的区域）
+- Rotating regions（旋转区域）
+- Tab books（选项卡簿）
+- Layout hints（布局提示）
+- Layout examples（布局示例）
+- Tips for specifying layout hints（布局提示规格技巧）
 
 ---
 

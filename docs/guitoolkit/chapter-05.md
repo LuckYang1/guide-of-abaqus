@@ -6,13 +6,13 @@
 
 ## 本章内容
 
-- [关于对话框](#关于对话框)
-- [Modal versus modeless（模态与非模态）](#modal-versus-modeless-模态与非模态)
-- [Showing and hiding dialog boxes（显示和隐藏对话框）](#showing-and-hiding-dialog-boxes-显示和隐藏对话框)
-- [Message dialog boxes（消息对话框）](#message-dialog-boxes-消息对话框)
-- [Custom dialog boxes（自定义对话框）](#custom-dialog-boxes-自定义对话框)
-- [Data dialog boxes（数据对话框）](#data-dialog-boxes-数据对话框)
-- [Common dialog boxes（通用对话框）](#common-dialog-boxes-通用对话框)
+- 关于对话框
+- Modal versus modeless（模态与非模态）
+- Showing and hiding dialog boxes（显示和隐藏对话框）
+- Message dialog boxes（消息对话框）
+- Custom dialog boxes（自定义对话框）
+- Data dialog boxes（数据对话框）
+- Common dialog boxes（通用对话框）
 
 ---
 

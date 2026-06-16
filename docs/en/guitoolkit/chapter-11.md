@@ -6,11 +6,11 @@ This section explains how to create an application, such as Abaqus/CAE. It also 
 
 ## Chapter Contents
 
-- [About GUI code](#about-gui-code)
-- [Launch script](#launch-script)
-- [Licensing and execution](#licensing-and-execution)
-- [Application object](#application-object)
-- [Main window](#main-window)
+- About GUI code
+- Launch script
+- Licensing and execution
+- Application object
+- Main window
 
 ---
 

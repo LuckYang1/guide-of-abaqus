@@ -6,9 +6,9 @@
 
 ## 本章内容
 
-- [Widgets（控件）](#widgets-控件)
-- [Layout managers（布局管理器）](#layout-managers-布局管理器)
-- [Dialog boxes（对话框）](#dialog-boxes-对话框)
+- Widgets（控件）
+- Layout managers（布局管理器）
+- Dialog boxes（对话框）
 
 ---
 

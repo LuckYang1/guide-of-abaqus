@@ -17,9 +17,9 @@ To create a new GUI toolset, you must follow these steps:
 
 ## Chapter Contents
 
-- [GUI toolset example](#gui-toolset-example)
-- [Creating toolset components](#creating-toolset-components)
-- [Registering a toolset](#registering-a-toolset)
+- GUI toolset example
+- Creating toolset components
+- Registering a toolset
 
 ---
 

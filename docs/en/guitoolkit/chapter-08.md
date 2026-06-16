@@ -17,9 +17,9 @@ To create a new GUI module, you must follow these steps:
 
 ## Chapter Contents
 
-- [Examining a GUI module example](#examining-a-gui-module-example)
-- [Registering a GUI module](#registering-a-gui-module)
-- [Switching to a GUI module](#switching-to-a-gui-module)
+- Examining a GUI module example
+- Registering a GUI module
+- Switching to a GUI module
 
 ---
 

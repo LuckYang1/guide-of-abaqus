@@ -6,11 +6,11 @@ A mode is a mechanism for gathering user input, processing the input, and then i
 
 ## Chapter Contents
 
-- [About modes](#about-modes)
-- [Mode processing](#mode-processing)
-- [Form modes](#form-modes)
-- [Procedure modes](#procedure-modes)
-- [Picking in procedure modes](#picking-in-procedure-modes)
+- About modes
+- Mode processing
+- Form modes
+- Procedure modes
+- Picking in procedure modes
 
 ---
 
